@@ -1,0 +1,500 @@
+  133  bundle exec rspec spec/requests/static_pages_spec.rb
+  134  bundle exec rspec spec/requests/static_pages_spec.rb
+  135  bundle exec rspec spec/requests/static_pages_spec.rb
+  136  bundle exec rspec spec/requests/static_pages_spec.rb
+  137  bundle exec rspec spec/requests/static_pages_spec.rb
+  138  bundle exec rspec spec/requests/static_pages_spec.rb
+  139  bundle exec rspec spec/requests/static_pages_spec.rb
+  140  bundle exec rspec spec/requests/static_pages_spec.rb
+  141  bundle exec rspec spec/requests/static_pages_spec.rb
+  142  bundle exec rspec spec/requests/static_pages_spec.rb
+  143  bundle exec rspec spec/requests/static_pages_spec.rb
+  144  bundle exec rspec spec/requests/static_pages_spec.rb
+  145  bundle exec rspec spec/requests/static_pages_spec.rb
+  146  bundle exec rspec spec/requests/static_pages_spec.rb
+  147  bundle exec rspec spec/requests/static_pages_spec.rb
+  148  bundle exec rspec spec/requests/static_pages_spec.rb
+  149  bundle exec rspec spec/requests/static_pages_spec.rb
+  150  bundle exec rspec spec/requests/static_pages_spec.rb
+  151  bundle exec rspec spec/requests/static_pages_spec.rb
+  152  bundle exec rspec spec/requests/static_pages_spec.rb
+  153  bundle exec rspec spec/requests/static_pages_spec.rb
+  154  bundle exec rspec spec/requests/static_pages_spec.rb
+  155  bundle exec rspec spec/requests/static_pages_spec.rb
+  156  bundle exec rspec spec/requests/static_pages_spec.rb
+  157  bundle exec rspec spec/requests/static_pages_spec.rb
+  158  bundle exec rspec spec/requests/static_pages_spec.rb
+  159  bundle exec rspec spec/requests/static_pages_spec.rb
+  160  bundle exec rspec spec/requests/static_pages_spec.rb
+  161  bundle exec rspec spec/requests/static_pages_spec.rb
+  162  bundle exec rspec spec/requests/static_pages_spec.rb
+  163  sudo vi /etc/sysctl.conf 
+  164  echo $PATH
+  165  ls -l /Library/PostgreSQL/9.2/
+  166  ls -l /Library/PostgreSQL/9.2/lib/
+  167  vi ~/.bashrc
+  168  vi ~/.bashrc
+  169  h
+  170  vi ~/.bashrc
+  171  vi ~/.bashrc
+  172  source ~/.bashrc
+  173  sudo cp /Library/PostgreSQL/9.1/lib/libssl.1.0.0.dylib /usr/lib
+  174  sudo cp /Library/PostgreSQL/9.1/lib/libcrypto.1.0.0.dylib /usr/lib
+  175  sudo ln -fs /usr/lib/libssl.1.0.0.dylib /usr/lib/libssl.dylib
+  176  sudo ln -fs /usr/lib/libcrypto.1.0.0.dylib /usr/lib/libcrypto.dylib
+  177  ls
+  178  cd config
+  179  ls
+  180  vi database.yml 
+  181  ps -ef
+  182  ps -ef | grep postgres
+  183  which pg+ctl
+  184  which pg_ctl
+  185  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  186  ps -ef | grep postgres
+  187  pg_ctl -D /usr/local/var/postgres status
+  188  pg_ctl -D /usr/local/var/postgres start
+  189  cd /usr/local/var
+  190  initdb /usr/local/var
+  191  ls -l /usr/local/var
+  192  mkdir postgres
+  193  mv * postgres/
+  194  ls
+  195  cd postgres/
+  196  l
+  197  cd ..
+  198  l
+  199  cd postgres/
+  200  l
+  201  cd ..
+  202  ls
+  203  rm -r postgres/
+  204  mkdir postgres
+  205  ls
+  206  cd postgres/
+  207  ls
+  208  cd ..
+  209  l
+  210  ls -l
+  211  pwd
+  212  git status
+  213  git checkout -- application.rb
+  214  ls
+  215  git checkout -- boot.rb
+  216  git checkout -- database.yml
+  217  git checkout -- environment.rb
+  218  git checkout -- environments/development.rb
+  219  git checkout -- environments/production.rb
+  220  git checkout -- environments/test.rb
+  221  git checkout -- initializers/backtrace_silencers.rb
+  222  git checkout -- initializers/inflections.rb
+  223  git checkout -- initializers/mime_types.rb
+  224  git checkout -- initializers/secret_token.rb
+  225  git checkout -- initializers/session_store.rb
+  226  git checkout -- initializers/wrap_parameters.rb
+  227  git check
+  228  git checkout -- routes.rb
+  229  git status
+  230  pwd
+  231  cd /usr/local/var
+  232  ls
+  233  h
+  234  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  235  ps -ef | grep postgres
+  236  pg_ctl -D /usr/local/var/postgres status
+  237  pg_ctl -D /usr/local/var/postgres start
+  238  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  239  cdrl
+  240  ls
+  241  cd first_app/
+  242  cd config
+  243  ls
+  244  vi database.yml 
+  245  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  246  pg_ctl -D /usr/local/var/postgres status
+  247  pg_ctl -D /usr/local/var/postgres start
+  248  ls -l /usr/local/var/
+  249  chmod 700 /usr/local/var/postgres/
+  250  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  251  pg_ctl -D /usr/local/var/postgres status
+  252  ls
+  253  vi database.yml 
+  254  cd ..
+  255  ls
+  256  cd db
+  257  ls
+  258  psql
+  259  cd ../config
+  260  vi database.yml 
+  261  grep susan *
+  262  man psql
+  263  psql --help
+  264  psql --list
+  265  psql -d template0
+  266  psql
+  267  psql -d postgres
+  268  which psql
+  269  ls /Library/PostgreSQL/9.1/bin/psql
+  270  ls /Library/PostgreSQL/9.1/bin/
+  271  which createuser
+  272  createuser admin
+  273  dropuser admin
+  274  createuser admin
+  275  createuser
+  276  dropuser admin
+  277  createuser -d -P -r -s admin
+  278  grep db database.yml 
+  279  cd ../db/
+  280  createdb development.postgresql -O admin
+  281  createdb test.postgresql -O admin
+  282  createdb production.postgresql -O admin
+  283  ls
+  284  createdb
+  285  ls
+  286  createdb -e -O admin development.postgresql
+  287  ls
+  288  head development.sqlite3 
+  289  ls -l
+  290  touch development.postgresql
+  291  l
+  292  cd ..
+  293  ls -l db/development.postgresql
+  294  rake db:create:all
+  295  rake db:test:prepare
+  296  psql
+  297  h | grep createdb
+  298  createdb -e -O admin db/development.postgresql
+  299  rake db:test:prepare
+  300  createdb -e -O admin db/test.postgresql
+  301  rake db:test:prepare
+  302  rake db:test:prepare
+  303  createdb -e -O admin db/testPostgresql
+  304  rake db:test:prepare
+  305  createdb -e -O admin db/developmentPostgresql
+  306  createdb -e -O admin db/productionPostgresql
+  307  rake db:test:prepare
+  308  ls -l */schema.rb
+  309  ls -l */*/schema.rb
+  310  rake db:migrate
+  311  rake db:test:prepare
+  312  pg_ctl -D /usr/local/var/postgres status
+  313  rvm get head && rvm reload
+  314  rvm -v
+  315  rspec spec/
+  316  rspec spec/
+  317  bundle install
+  318  guard init rspec
+  319  vi Guardfile 
+  320  guard
+  321  bundle install
+  322  bundle update childprocess
+  323  bundle install
+  324  spork --bootstrap
+  325  time rspec spec/requests/static_pages_spec.rb 
+  326  spork
+  327  guard init spork
+  328  guard
+  329  spork --bootstrap
+  330  guard init spork
+  331  guard
+  332  ps -ef guard
+  333  ps -ef | grep guard
+  334  ps
+  335  kill -9 27519
+  336  ps
+  337  ps
+  338  ps
+  339  spork --bootstrap
+  340  spork testunit --bootstrap
+  341  subl test/test_helper.rb
+  342  subl Guardfile 
+  343  guard
+  344  cdrl
+  345  ls
+  346  cd first_app/
+  347  ls
+  348  subl
+  349  subl app/controllers/static_pages_controller.rb
+  350  git add .
+  351  git commit -m "Add a StaticPages controller"
+  352  ls
+  353  l
+  354  pwd
+  355  l app
+  356  l
+  357  pwd
+  358  git add .
+  359  git commit -m "Add a StaticPages controller"
+  360  git add .
+  361  git commit -m "Add a StaticPages controller"
+  362  git checkout -b static-pages
+  363  l
+  364  gem install pg -v 0.12.2
+  365  h
+  366  cd /Library/
+  367  cd PostgreSQL/
+  368  ls
+  369  cd 9.2/
+  370  ls
+  371  rm -r data
+  372  sudo rm -r data
+  373  ls
+  374  cd ..
+  375  rm -r 9.2
+  376  sudo rm -r 9.2
+  377  l
+  378  cd ..
+  379  cdrl
+  380  ls
+  381  cd first_app/
+  382  ls
+  383  vi ~/.bashrc
+  384  sudo ln -s /Library/PostgreSQL/9.1/lib/libpq.5.dylib /usr/lib/libpq.5.dylib
+  385  vi Gemfile
+  386  ps -ef | grep vi
+  387  ps -ef | grep database
+  388  ps -ef | grep database
+  389  cd db
+  390  ls
+  391  psql -h
+  392  souce ~/.bashrc
+  393  source ~/.bashrc
+  394  man createuser
+  395  man createdb
+  396  h
+  397  cd ../config
+  398  vi database.yml 
+  399  vi database.yml 
+  400  vi database.yml 
+  401  vi database.yml 
+  402  vi application.rb 
+  403  ls
+  404  vi routes.rb 
+  405  cd ..
+  406  vi Gemfile
+  407  vi Gemfile
+  408  vi Gemfile
+  409  vi Gemfile
+  410  subl spec/spec_helper.rb
+  411  time rspec spec/requests/static_pages_spec.rb --drb
+  412  echo $PATH
+  413  l /Library/PostgreSQL/9.1/
+  414  which psql
+  415  ls -l /Library/PostgreSQL/9.1/
+  416  ls -l /Library/PostgreSQL/9.1/.*
+  417  ls -l /Library/PostgreSQL/9.1/*/.*
+  418  ls -a /Library/PostgreSQL/9.1/*/.rspec
+  419  vi ~/.rspec
+  420  vi ~/.rspec
+  421  ls
+  422  vi Guardfile 
+  423  subl Guardfile
+  424   pg_ctl -D /usr/local/var/postgres status
+  425  vi Gemfile
+  426  bundle install
+  427  vi Gemfile
+  428  cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+  429  git clone https://github.com/maltize/sublime-text-2-ruby-tests.git RubyTest
+  430  which subl
+  431  cd User/
+  432  ls
+  433  l
+  434  cd /tmp
+  435  git clone https://github.com/mhartl/rails_tutorial_sublime_text.git
+  436  ls
+  437  l
+  438  ls -l rails_tutorial_sublime_text/
+  439  cp -r rails_tutorial_sublime_text/* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+  440  l ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+  441  h
+  442  ls
+  443  mkdir sublime-text-haml-sass
+  444  cd sublime-text-haml-sass/
+  445  git clone https://github.com/n00ge/sublime-text-haml-sass.git try
+  446  ls
+  447  l try/
+  448  cd try/
+  449  ls
+  450  mv Ruby\ Haml/ /Users/susan/Library/Application Support/Sublime Text 2/Packages/
+  451  mv Ruby\ Haml/ /Users/susan/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+  452  mv SASS/ /Users/susan/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+  453  cd ..
+  454  l
+  455  cd ..
+  456  ls
+  457  ls sublime-text-haml-sass/try/
+  458  cd
+  459  ls .8
+  460  la
+  461  git clone git@github.com:eddorre/SublimeERB.git ~/.sublime_erb
+  462  ln -fs ~/.sublime_erb/ ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/SublimeERB
+  463  cd .sublime_erb/
+  464  git pull --rebase
+  465  cd /tmp
+  466  ls
+  467  cd rubytest
+  468  git clone https://github.com/maltize/sublime-text-2-ruby-tests.git RubyTest
+  469  ls -l RubyTest/
+  470   cat TestConsole.hidden-tmTheme
+  471  cat RubyTest/TestConsole.hidden-tmTheme
+  472  pwd
+  473  cdrb
+  474  cdrl
+  475  cd first_app/
+  476  ls
+  477  subl app/views/layouts/application.html.erb 
+  478  subl app/views/layouts/application.html.erb 
+  479  subl app/helpers/application_helper.rb 
+  480  subl spec/requests/static_pages_spec.rb 
+  481  subl app/views/static_pages/home.html.erb 
+  482  ls -l public/
+  483  cat public/hello.html 
+  484  cat public/robots.txt 
+  485  git commit -m "Added contact page. DRY page titles. Changed from SQLite to PostgreSQL. Implemented Guard (for automated tests) and Spork (for speedy tests)."
+  486  git checkout master
+  487  git merge --help
+  488  git merge static-pages
+  489  git push
+  490  git push heroku
+  491  rails console
+  492  rails c
+  493  ps -ef | grep rails
+  494  fg
+  495  cdoc
+  496  cd horses/
+  497  ls
+  498  cd website
+  499  ls
+  500  vi TO_DO
+  501  cdoc
+  502  ls
+  503  cdrl
+  504  cd first_app/
+  505  git checkout -b filling-in-layout
+  506  subl app/views/layouts/application.html.erb
+  507  subl app/views/static_pages/home.html.erb
+  508  ps -ef
+  509  h
+  510  subl app/assets/stylesheets/custom.css.scss
+  511  subl app/assets/stylesheets/custom.css.scss
+  512  git help commit
+  513  subl app/views/layouts/application.html.erb
+  514  subl app/views/static_pages/home.html.erb
+  515  subl Gemfile
+  516  vi Gemfile
+  517  subl app/assets/stylesheets/custom.css.scss
+  518  subl app/views/layouts/application.html.erb
+  519  subl app/views/layouts/_shim.html.erb
+  520  subl app/views/layouts/_header.html.erb
+  521  subl app/views/layouts/_footer.html.erb
+  522  subl app/assets/stylesheets/custom.css.scss
+  523  ls app/assets/stylesheets/
+  524  subl app/assets/stylesheets/application.css 
+  525  subl app/assets/stylesheets/custom.css.scss
+  526  subl app/assets/stylesheets/custom.css.scss
+  527  which postgres
+  528  echo $PATH
+  529  ls -l /Library/PostgreSQL/9.2/
+  530  ls -l /Library/PostgreSQL/9.1/
+  531  ls -l /Library/PostgreSQL/9.1/bin/
+  532  postgres -v
+  533  vi ~.bashrc
+  534  vi ~/.bashrc
+  535  grep ostgre ~/.*
+  536  vi /Users/susan/.bash_profile
+  537  h
+  538  subl spec/requests/static_pages_spec.rb
+  539  subl config/routes.rb
+  540  subl app/controllers/static_pages_controller.rb
+  541  subl app/views/static_pages/contact.html.erb
+  542  subl spec/requests/static_pages_spec.rb
+  543  ls -l /etc/sysctl.conf 
+  544  cat /etc/sysctl.conf 
+  545  vi blah
+  546  vi blah
+  547  ls
+  548  subl /etc/sysctl.conf 
+  549  subl /etc/sysctl.conf 
+  550  subl app/controllers/static_pages_controller.rb
+  551  subl spec/requests/static_pages_spec.rb
+  552  subl config/routes.rb
+  553  ls -l public/index.html 
+  554  cat public/index.html 
+  555  mv public/index.html ~/old.index.html
+  556  subl app/views/layouts/_header.html.erb 
+  557  subl app/views/layouts/_footer.html.erb 
+  558  subl config/routes.rb
+  559  subl spec/requests/static_pages_spec.rb
+  560  grep ostgre ~/.*
+  561  subl spec/support/utilities.rb
+  562  cd spec
+  563  ls
+  564  mkdir support
+  565  l
+  566  cd support/
+  567  pwd
+  568  cd ../..
+  569  pwd
+  570  bundle exec rspec spec/requests/static_pages_spec.rb
+  571  subl spec/requests/user_pages_spec.rb 
+  572  bundle exec rspec spec/requests/user_pages_spec.rb 
+  573  bundle exec rspec spec/requests/user_pages_spec.rb 
+  574  bundle exec rspec spec/requests/user_pages_spec.rb 
+  575  rspec spec/requests/user_pages_spec.rb 
+  576  rspec spec/requests/
+  577  rspec spec/
+  578  rake spec
+  579  rake
+  580  subl config/routes.rb 
+  581  subl app/views/users/new.html.erb 
+  582  rspec spec/
+  583  subl config/routes.rb 
+  584  subl app/views/users/new.html.erb 
+  585  subl app/views/users/new.html.erb
+  586  rspec spec/requests/user_pages_spec.rb 
+  587  subl spec/requests/user_pages_spec.rb 
+  588  rspec spec/requests/user_pages_spec.rb 
+  589  subl spec/requests/user_pages_spec.rb
+  590  subl config/routes.rb
+  591  subl app/views/users/new.html.erb
+  592  subl app/views/static_pages/home.html.erb
+  593  rspec spec/
+  594  subl config/routes.rb
+  595  ls -l public/
+  596  subl app/views/static_pages/home.html.erb
+  597  rspec spec/requests/user_pages_spec.rb 
+  598  rspec spec/
+  599  subl spec/requests/user_pages_spec.rb
+  600  subl spec/requests/static_pages_spec.rb 
+  601  subl spec/requests/static_pages_spec.rb 
+  602  bundle exec rspec spec/requests/static_pages_spec.rb
+  603  subl spec/requests/user_pages_spec.rb
+  604  rspec spec/requests/user_pages_spec.rb 
+  605  rspec spec/requests/ 
+  606  rspec spec/
+  607  rake spec
+  608  rake
+  609  subl app/views/users/new.html.erb 
+  610  rspec spec/
+  611  ls -l */utilities.rb
+  612  ls -l */*/utilities.rb
+  613  subl spec/support/utilities.rb 
+  614  rspec spec/requests/user_pages_spec.rb 
+  615  rspec spec/
+  616  subl spec/spec_helper.rb 
+  617  rspec spec/
+  618  rspec spec/
+  619  rspec spec/requests/user_pages_spec.rb 
+  620  bundle exec rspec spec/requests/static_pages_spec.rb
+  621  rake routes
+  622  subl spec/requests/static_pages_spec.rb 
+  623  mkdir spec/helpers
+  624  mv spec/spec_helper.rb spec/helpers/
+  625  mv spec/helpers/spec_helper.rb spec/
+  626  l spec/
+  627  subl spec/helpers/application_helper_spec.rb
+  628  rspec spec/
+  629  rspec spec/
+  630  rspec spec/
+  631  ls
+  632  h > temp

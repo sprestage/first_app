@@ -55,6 +55,25 @@ end
 Spork.each_run do
   # This code will be run each time you run your specs.
 
+  # Adding this so that the database will get cleaned EVERY time the tests are run.
+  RSpec.configure do |config|
+    config.use_transactional_examples = false
+
+
+    config.before(:suite) do
+      DatabaseCleaner.strategy = :transaction
+      DatabaseCleaner.clean_with(:truncation)
+    end
+
+    config.before(:each) do
+      DatabaseCleaner.start
+    end
+
+    config.after(:each) do
+      DatabaseCleaner.clean
+    end
+
+  end
 end
 
 # --- Instructions ---
